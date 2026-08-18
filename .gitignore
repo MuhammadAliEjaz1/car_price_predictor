@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw scraped data -- large, reproducible via scripts/scraper.py, don't need in git
+data/raw/*.csv
+
+# Intermediate cleaning step -- reproducible via scripts/clean.py
+data/processed/cars_clean.csv
+
+# NOTE: data/processed/cars_features.csv IS tracked (not ignored) --
+# app/app.py loads it at runtime for the make/model dropdown and the
+# "similar listings" comparison. Deployment breaks without it.
+
+# NOTE: models/xgb_model.json and models/model_metadata.json ARE tracked
+# (not ignored) -- app/app.py loads them at runtime to make predictions.
+# Deployment breaks without them.
+models/*.pkl
+
+.env
+.DS_Store

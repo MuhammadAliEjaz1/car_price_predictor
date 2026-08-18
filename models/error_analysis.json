@@ -1,0 +1,152 @@
+{
+  "worst_makes": [
+    {
+      "make": "Nissan",
+      "count": 16,
+      "mean_mape": 22.84460459294571,
+      "median_mape": 13.90394680851064
+    },
+    {
+      "make": "Mitsubishi",
+      "count": 12,
+      "mean_mape": 22.350592305269213,
+      "median_mape": 16.21963289293068
+    },
+    {
+      "make": "Mercedes Benz",
+      "count": 5,
+      "mean_mape": 20.44439660033953,
+      "median_mape": 10.378291891891891
+    },
+    {
+      "make": "Audi",
+      "count": 8,
+      "mean_mape": 17.249273046283303,
+      "median_mape": 9.111295928474611
+    },
+    {
+      "make": "Suzuki",
+      "count": 180,
+      "mean_mape": 9.582077366155442,
+      "median_mape": 6.735268582541055
+    },
+    {
+      "make": "Toyota",
+      "count": 206,
+      "mean_mape": 9.46083588938467,
+      "median_mape": 7.546439543460925
+    },
+    {
+      "make": "MG",
+      "count": 13,
+      "mean_mape": 9.183341640061833,
+      "median_mape": 4.859114583333334
+    },
+    {
+      "make": "Honda",
+      "count": 183,
+      "mean_mape": 7.889114349232159,
+      "median_mape": 6.042354166666667
+    },
+    {
+      "make": "Daihatsu",
+      "count": 21,
+      "mean_mape": 7.868029748004149,
+      "median_mape": 6.974507042253521
+    },
+    {
+      "make": "Hyundai",
+      "count": 25,
+      "mean_mape": 7.4661893467322304,
+      "median_mape": 6.321250000000001
+    }
+  ],
+  "best_makes": [
+    {
+      "make": "Audi",
+      "count": 8,
+      "mean_mape": 17.249273046283303,
+      "median_mape": 9.111295928474611
+    },
+    {
+      "make": "Suzuki",
+      "count": 180,
+      "mean_mape": 9.582077366155442,
+      "median_mape": 6.735268582541055
+    },
+    {
+      "make": "Toyota",
+      "count": 206,
+      "mean_mape": 9.46083588938467,
+      "median_mape": 7.546439543460925
+    },
+    {
+      "make": "MG",
+      "count": 13,
+      "mean_mape": 9.183341640061833,
+      "median_mape": 4.859114583333334
+    },
+    {
+      "make": "Honda",
+      "count": 183,
+      "mean_mape": 7.889114349232159,
+      "median_mape": 6.042354166666667
+    },
+    {
+      "make": "Daihatsu",
+      "count": 21,
+      "mean_mape": 7.868029748004149,
+      "median_mape": 6.974507042253521
+    },
+    {
+      "make": "Hyundai",
+      "count": 25,
+      "mean_mape": 7.4661893467322304,
+      "median_mape": 6.321250000000001
+    },
+    {
+      "make": "KIA",
+      "count": 23,
+      "mean_mape": 6.406719849807599,
+      "median_mape": 4.5256917293233085
+    },
+    {
+      "make": "Changan",
+      "count": 8,
+      "mean_mape": 5.1610926993395125,
+      "median_mape": 2.8818260630498536
+    },
+    {
+      "make": "Haval",
+      "count": 8,
+      "mean_mape": 1.448312207191107,
+      "median_mape": 1.317497005400098
+    }
+  ],
+  "by_price_quartile": [
+    {
+      "price_bucket": "Low (Q1)",
+      "count": "182",
+      "mean_mape": "13.36604457820311",
+      "mean_abs_error": "172931.5989010989"
+    },
+    {
+      "price_bucket": "Mid-low (Q2)",
+      "count": "180",
+      "mean_mape": "7.7756443557294785",
+      "mean_abs_error": "210365.07638888888"
+    },
+    {
+      "price_bucket": "Mid-high (Q3)",
+      "count": "181",
+      "mean_mape": "8.056453874073807",
+      "mean_abs_error": "331661.3494475138"
+    },
+    {
+      "price_bucket": "High (Q4)",
+      "count": "181",
+      "mean_mape": "10.3269413209961",
+      "mean_abs_error": "1574674.6505524863"
+    }
+  ]
+}
