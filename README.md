@@ -4,8 +4,6 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-live-brightgreen.svg)
 
-**Live app:** [usedcarpricepredictorpak.streamlit.app](https://usedcarpricepredictorpak.streamlit.app/)
-
 Predicts a fair market price for used cars in Pakistan, trained on real
 listings scraped from [PakWheels.com](https://www.pakwheels.com) —
 Pakistan's largest used car marketplace.
